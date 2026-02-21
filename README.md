@@ -139,7 +139,7 @@ ros2 launch my_publisher gazebo.launch.py
 
 ```bash
 ros2 launch nav2_bringup localization_launch.py \
-map:=/home/<your_username>/ros2_ws/src/my_publisher/maps/maze_map.yaml \
+map:=/home/gourav047/ros2_ws/src/my_publisher/maps/maze_map.yaml \
 use_sim_time:=true \
 params_file:=/home/gourav047/ros2_ws/src/my_publisher/config/nav2_params.yaml
 ```
